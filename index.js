@@ -22,3 +22,7 @@ exports.modulo = function(a,b)
 {
   return a%b;
 };
+
+exports.round = function(a){
+  return Math.round(a);
+};

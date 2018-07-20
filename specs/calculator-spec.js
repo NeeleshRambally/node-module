@@ -1,6 +1,12 @@
 var calculator = require("../index");
 /*Jasmin Testing*/
 describe("Calculator", function () {
+
+  it("should return the rounded value of 2.5",function(){
+    var round=calculator.round(2.5);
+    expect(round).toBe(3);
+  });
+
   // Add 2 numbers
   it("should add 2 and 3", function () {
     var sum = calculator.add(2, 3);
@@ -30,4 +36,5 @@ describe("Calculator", function () {
     var quot = calculator.modulo(6, 2);
     expect(quot).toBe(0);
   });
+
 });
