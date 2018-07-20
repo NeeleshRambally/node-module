@@ -1,0 +1,8 @@
+To Use Module
+Step 1.
+      var calc=require('custom-node-module');
+Step 2.
+      npm install custom-node-module
+      
+      To use module functions 
+        calc.add(1,1) => Return addition of 1+1 
