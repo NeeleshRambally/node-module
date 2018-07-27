@@ -3,6 +3,8 @@ Step 1.
       var calc=require('custom-node-module');
 Step 2.
       npm install custom-node-module
+      npm test (To run unit tests)
       
-      To use module functions 
+      To use module functions there are several functions.
         calc.add(1,1) => Return addition of 1+1 
+        
