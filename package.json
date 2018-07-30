@@ -1,6 +1,6 @@
 {
   "name": "custom-node-module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "custom built node module",
   "main": "index.js",
   "scripts": {
